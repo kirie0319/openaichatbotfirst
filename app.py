@@ -4,7 +4,7 @@ import openai
 import re
 
 # ファイルを読み込み
-with open('/Users/yuya0407/Desktop/Python/openaichatbot/[LINE] Chat with Minami Otsuki.txt', 'r', encoding='utf-8') as file:
+with open('[LINE] Chat with Minami Otsuki.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 # データの抽出と前処理
